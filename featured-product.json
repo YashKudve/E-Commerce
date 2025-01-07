@@ -47,6 +47,13 @@
         "image": "img/products/f7.jpg",
         "rating": 4,
         "price": 60
+    },
+    {
+        "brand": "adidas",
+        "name": "Cartoon Astronaut T-Shirt",
+        "image": "img/products/f8.jpg",
+        "rating": 4,
+        "price": 40
     }
 
     
