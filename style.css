@@ -210,6 +210,18 @@ body {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   margin: 15px 0;
   transition: 0.2s ease;
+  position:relative;
+}
+
+#product1 .pro-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 10px; 
+  margin: 0 auto; 
+  padding: 20px;
+  max-width: 1200px; 
+  box-sizing: border-box;
 }
 
 #product1 .pro:hover{
@@ -247,4 +259,18 @@ body {
   font-size: 15px;
   font-weight: 700;
   color: #088178;
+}
+
+#product1 .pro .cart{
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
 }
