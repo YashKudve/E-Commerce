@@ -398,3 +398,45 @@ body {
 .bb2 h4, .bb2 h2{
   color: white;
 }
+
+#banner-3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+#banner-3 .box-1{
+  background-image: url("img/banner/b7.jpg");
+}
+#banner-3 .box-2{
+  background-image: url("img/banner/b4.jpg");
+}
+#banner-3 .box-3{
+  background-image: url("img/banner/b18.jpg");
+}
+
+#banner-3 .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner-3 h2{
+  color: white;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner-3 h3{
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+}
