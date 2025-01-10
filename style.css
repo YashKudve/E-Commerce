@@ -152,6 +152,10 @@ body {
   align-items: center;
 }
 
+#close{
+  display: none;
+}
+
 /* ****************************  Hero Section  ************************ */
 
 #hero{
@@ -558,7 +562,7 @@ footer .install .row img{
 
 /* Media Queries for Responsive design */
 
-@media (max-width:799px) {
+@media (max-width:850px) {
   #navbar{
     display: flex;
     flex-direction: column;
@@ -572,6 +576,11 @@ footer .install .row img{
     background-color: #E3E6F3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
+    transition: 0.4s;
+  }
+
+  #navbar.active{
+    right: 0px;
   }
 
   #navbar li{
@@ -587,6 +596,19 @@ footer .install .row img{
     color: #1a1a1a;
     font-size: 24px;
     padding-left: 20px;
+  }
+
+  #close{
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: black;
+    font-size: 24px;
+  }
+
+  #lg-bag{
+    display: none;
   }
    
 }
